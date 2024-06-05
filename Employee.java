@@ -1,8 +1,14 @@
 package com.spring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
 public class Employee {
+
 	private int eid;
 	private String ename;
+	@Autowired
+	@Qualifier("address1")
 	private Address address;
 
 	public Employee() {

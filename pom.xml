@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.spring</groupId>
-  <artifactId>WithoutAnnotation</artifactId>
+  <artifactId>WithAutowiredAnnotation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>WithoutAnnotation</name>
+  <name>WithAutowiredAnnotation</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -16,7 +16,7 @@
 
   <dependencies>
 	  
-	  <dependency>
+	    <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-core</artifactId>
     <version>6.1.6</version>
@@ -28,10 +28,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
+        <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
     <version>6.1.6</version>
 </dependency>
+
   </dependencies>
 </project>

@@ -5,8 +5,6 @@ public class Address {
 	private int rno;
 	private String city;
 	private long pincode;
-	
-	
 
 	public int getRno() {
 		return rno;
